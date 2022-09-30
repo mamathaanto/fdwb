@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Suez One', serif;
+}
+
+.icons1{
+    
+    margin:10px 20px;
+    padding:10px 20px;
+    letter-spacing: 10px;
+}
+.fa-user-circle,.fa-shopping-cart,.fa-bars{
+    color:rgb(199, 57, 57);
+}
+.fa-user-circle:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-shopping-cart:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-bars:hover{
+    color:rgb(81, 196, 211);
+}
+
+
+
+.section1{
+    
+    
+  
+
+   background-image:url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__340.jpg) ;
+    
+    background-size:cover;
+    
+   
+
+      /* Set rules to fill background */
+  /*min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100vh;
+	
+  /* Set up positioning */
+ /*position: fixed;
+  top: 0;
+  left: 0; */
+}
+   
+    .box{
+        height: 300px;
+        width: 500px;
+        display:inline-block;
+        background-color:rgba(0,0,0,0.5);
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 14px;
+        
+        
+        margin-top: 250px;
+
+        
+    }
+    .header1{
+        color:lightslategray;
+        margin-top:50px ;
+    }
+    .para1{
+        color:lightslategray; 
+    }
+    
+    .section1 .btn{
+        display:inline-block;
+        border-radius:5rem;
+        
+        cursor: pointer;
+        font-size: 1rem;
+        padding:0.4px 3.5px;
+        margin: 6px 168px;
+
+
+
+    }
+    .he1{
+        font-size:50px;
+        color:white;
+        font-weight: 50;
+        line-height: 20%;
+    }
+    .section3 .sp1{
+        font-size: 120px;
+        font-weight: 300;
+        color:white;
+        line-height: 90%;
+    }
+    .sp2{
+        font-size: 50px;
+        color:white;
+        line-height:90%;
+    }
+    .pa2{
+        font-size:25px;
+        color:white;
+        line-height: 120%;
+
+    }
+    .sp3{
+        border:3px dashed white;
+        color:white;
+        font-size: 25px;
+        line-height: 150%;
+    }
+    .sp4{
+        color:rgb(23, 121, 146);
+        background-color: white;
+        font-size:25px;
+        line-height: 150%;
+    }
+    .he1,.pa1,.pa2,.pa3{
+        margin:20px 30px;
+        padding:0px 42px;
+        
+    }
+
+
+
+
+
+
+   .section2 {
+       background-color: pink;
+   }
+.box1{
+    background-color: red;
+    border-radius: 10px;
+    padding:15px 15px;
+    margin:20px 20px;
+}
+.s4h2{
+    margin:20px 30px;
+    padding:45px 20px;
+}
+.s5h2{
+    margin:20px 30px;
+    padding:45px 20px;
+}
+.s6h2{
+    margin:20px 30px;
+    padding:45px 20px;
+}
+.sect7{
+    margin-top: 40px;;
+}
+
+.sect8{
+    background-image:url(https://media.istockphoto.com/photos/abstract-defocused-blue-soft-background-picture-id937025430?b=1&k=20&m=937025430&s=170667a&w=0&h=dV83s5bygLIt2r5MJm5ARhXmWxtq8CtS5YMuydofQe8=) ;
+    background-position: center;
+    margin-top:40px;
+    
+    width:100%;
+    height:600px;
+}
+.s9h2{
+    margin:20px 30px;
+    padding:45px 20px;
+}
+.section4 p{
+    font-size: 14px;
+}
+.section4 h4{
+    font-size: 18px;
+}
+.section9 p{
+    font-size: 12px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:1000px){
+        
+        .box{
+            padding:0 1rem;
+            margin:3rem 2rem;
+        }
+        .section1{
+            width:100%;
+            height:auto;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+
+        }
+
+
+
+
+        .section4 .card{
+            margin-top: 40px;
+        }
+        .section9 .bl2,.section9 .bl3{
+            margin-top: 40px;
+        }
+        
+
+    }
+
+
+    /*@media(max-width:350px)
+    {
+        .col{
+            width:100%;
+           
+        }
+        .card{
+            width:100%;
+           
+        }
+    }  */
+
+    @media(max-width:1067px){
+        .s6c3{
+            width:549px;
+            height:385px;
+        }
+    }
+    @media(max-width:700px){
+        .section4 img{
+            width:100%;
+        }
+    }

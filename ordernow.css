@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Suez One', serif;
+}
+
+.icons1{
+    
+    margin:10px 20px;
+    padding:10px 20px;
+    letter-spacing: 10px;
+}
+.fa-user-circle,.fa-shopping-cart,.fa-bars{
+    color:rgb(199, 57, 57);
+}
+.fa-user-circle:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-shopping-cart:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-bars:hover{
+    color:rgb(81, 196, 211);
+}
+
+
+
+.section1 .box{
+    color: aqua;
+    border-radius: 5px;
+    border-color:rgb(230, 205, 205) ;
+    border-width:10px;
+    border-style: double;
+    box-shadow: 2px 3px 3px rgb(214, 193, 193);
+}
+
+.section1 p{
+    text-indent:20px;
+}
+
+
+
+.section1 .col-6 .col-4 .card-title{
+    font-size: 12px;
+}
+.section1 .col-6 .col-4 .card-text{
+    font-size:10px ;
+}
+.section1 .col-6 .col-4 .btn{
+margin-left:-20px;
+}
+
+.section1 .col-3 h4{
+    background-color: rgb(182, 42, 42);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*             @media(max-width:764px){
+    .card-img-top{
+        width:100%;
+    }
+    .col-4{
+        max-width:100%;
+        width:100%;
+        margin:0px;
+        float:left;
+    }
+} 
+
+@media(max-width:764px){
+    .card{
+        width:100%;
+    }
+    .col-3 .c1{
+        max-width:100%;
+        width:100%;
+        margin:0;
+        float: left;
+    }
+}
+
+@media(max-width:764px){
+    .card{
+        width:100%;
+    }
+    .col-3 .c2{
+        max-width:100%;
+        width:100%;
+        margin:0;
+        float:right;
+    }
+}*/
+
+   /*@media(max-width:700px){
+    .c1{
+        margin-left: 110px;
+    }
+    .col-6 h4{
+        text-align:center;
+    }
+    .col-4 c3{
+        width:250px;
+        height:300px;
+        padding:20px;
+        margin-left:110px;
+    }
+    img{
+        width:200px;
+        height:160px;
+    }
+    .c21{
+        margin-left: 100px;
+        margin-top:20px;
+    }
+    .c22{
+        margin-left:100px;
+    }
+} */
+
+/*@media(max-width:700px){
+    .c1{
+        margin-left:110px;
+        margin-top:60px;
+        width:300px;
+        height:250px;
+        padding:40px;
+    }
+  /*  .col-6{
+        margin-left: 110px;
+    }
+    .col-6 h4{
+        text-align: center;
+        margin-top: 520px;
+        margin-left: -140px;
+    }
+    .c31{
+        margin-left:-60px;
+        margin-top:250px;
+        width:250px;
+        height:300px;
+       
+    }
+    .c31 .card,.c31 .card-body .c31 .card-title, .c31 .card-text{
+        width:250px;
+        height:300px;
+    }
+}*/
+
+
+@media(max-width:700px){
+    .col-sm-4 .card{
+        margin-top: 40px;
+    }
+}

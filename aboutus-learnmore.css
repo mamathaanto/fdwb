@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Suez One', serif;
+}
+.icons1{
+    
+    margin:10px 20px;
+    padding:10px 20px;
+    letter-spacing: 10px;
+}
+.fa-user-circle,.fa-shopping-cart,.fa-bars{
+    color:rgb(199, 57, 57);
+}
+.fa-user-circle:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-shopping-cart:hover{
+    color:rgb(81, 196, 211);
+}
+.fa-bars:hover{
+    color:rgb(81, 196, 211);
+}
+
+
+.section3   .col1 .container{
+    background: #000 url(https://media.istockphoto.com/photos/indian-dish-chicken-tikka-masala-picture-id1093661558?b=1&k=20&m=1093661558&s=170667a&w=0&h=U57xOB4TxZwwUgLsIxmm3C8hfm_mSwXLVuQD5RJcaq4=);
+    color:#fff;
+    height:250px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.section3  .col1 h4{
+    font-size: 12px;
+    z-index: 1;
+}
+.section3  .col1 .color-overlay{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    
+    
+}
+
+.section3   .col2 .container{
+    background: #000 url(https://media.istockphoto.com/photos/egg-biryani-basmati-rice-cooked-with-masala-roasted-eggs-and-spices-picture-id979968618?b=1&k=20&m=979968618&s=170667a&w=0&h=E-0T54yMp1s0AVPNc1lL4dRfSA8yDXPOfEc_6OvrBCU=);
+    color:#fff;
+    height:250px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.section3  .col2 h4{
+    font-size: 12px;
+    z-index: 1;
+}
+.section3  .col2 .color-overlay{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    
+    
+}
+
+.section3   .col3 .container{
+    background: #000 url(https://media.istockphoto.com/photos/brazilian-fish-stew-moqueca-picture-id1320857678?b=1&k=20&m=1320857678&s=170667a&w=0&h=vCOmZnpA2SVhaypcER4WrhfLna_JpmhL0ldC_OTHd58=);
+    color:#fff;
+    height:250px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.section3  .col3 h4{
+    font-size: 12px;
+    z-index: 1;
+}
+.section3  .col3 .color-overlay{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    
+    
+}
+
+.section3   .col4 .container{
+    background: #000 url(https://media.istockphoto.com/photos/table-full-of-food-for-family-top-view-picture-id1317535161?b=1&k=20&m=1317535161&s=170667a&w=0&h=od_-Qs5V6nUs2GGtPhXW44qXQCGa0ZAI7xGjp2uSh0E=);
+    color:#fff;
+    height:250px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.section3  .col4 h4{
+    font-size: 12px;
+    z-index: 1;
+}
+.section3  .col4 .color-overlay{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    
+    
+}
+.section3   .col5 .container{
+    background: #000 url(https://media.istockphoto.com/photos/tofu-curry-with-rice-and-naan-bread-picture-id1145286289?b=1&k=20&m=1145286289&s=170667a&w=0&h=nV4rB5oPsQwW2z4y9Wk3gaoTsSN2-1FcfuMyii8ifPg=) ;
+    color:#fff;
+    height:250px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.section3  .col5 h4{
+    font-size: 12px;
+    z-index: 1;
+}
+.section3  .col5 .color-overlay{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    
+    
+}
+
+
+@media(max-width:700px){
+    .section2 .col-sm-3 img{
+        margin-top: 40px;
+    }
+    .section3 .col-sm{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
